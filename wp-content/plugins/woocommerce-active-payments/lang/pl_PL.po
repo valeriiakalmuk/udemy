@@ -1,0 +1,276 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Aktywne Płatności\n"
+"POT-Creation-Date: 2018-01-25 11:32+0100\n"
+"PO-Revision-Date: 2018-01-25 11:33+0100\n"
+"Last-Translator: Piotr Jabłonowski <piotr.jablonowski@wpdesk.net>\n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: activepayments.php\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: activepayments.php:297
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: activepayments.php:298
+msgid "Docs"
+msgstr "Docs"
+
+#: activepayments.php:299
+msgid "Support"
+msgstr "Wsparcie"
+
+#: activepayments.php:316
+#, php-format
+msgid ""
+"You have an old version of Flexible Shipping. <a href=\"%s\">Please read "
+"about the changes</a> we made and upgrade to the new version. Thanks :)"
+msgstr ""
+"Korzystasz ze starej wersji Flexible Shipping. <a href=\"%s\">Proszę "
+"przeczytaj o zmianach,</a> które wprowadziliśmy i zaktualizuj do nowej "
+"wersji. Dzięki :)"
+
+#: activepayments.php:326
+msgid ""
+"WooCommerce Active Payments requires at least version 1.3 of WP Desk Helper "
+"plugin."
+msgstr ""
+"Wtyczka Aktywne Płatności wymaga wtyczki WP Desk Helper w wersji nie niższej "
+"niż 1.3"
+
+#: class/activepayments_admin.php:171 class/views/tabs.php:8
+msgid "Active Payments"
+msgstr "Aktywne Płatności"
+
+#: class/activepayments_admin.php:183
+msgid "Shipping"
+msgstr "Wysyłka"
+
+#: class/activepayments_admin.php:187
+msgid "Fees"
+msgstr "Prowizje"
+
+#: class/activepayments_admin.php:290
+msgid "Other (without shipping zone)"
+msgstr "Pozostałe (bez strefy wysyłki)"
+
+#: class/views/activepayments_settings.php:5
+#: class/views/activepayments_settings_2.6.php:7
+#: class/views/activepayments_settings_fees.php:26
+msgid "Settings saved."
+msgstr "Ustawienia zostały zapisane."
+
+#: class/views/activepayments_settings.php:13
+#: class/views/activepayments_settings_2.6.php:15
+msgid "Select which payments methods will be available for shipping methods."
+msgstr "Wybierz które opcje płatności będą dostępne dla opcji wysyłki."
+
+#: class/views/activepayments_settings.php:13
+#: class/views/activepayments_settings_2.6.php:15
+#, php-format
+msgid ""
+"Active Payments works great with <a href=\"%s\" target=\"_blank\">Flexible "
+"Shipping for WooCommerce</a>."
+msgstr ""
+"Aktywne płatności działają idealnie z wtyczką <a href=\"%s\" target=\"_blank"
+"\">Flexible Shipping dla WooCommerce</a>."
+
+#: class/views/activepayments_settings.php:127
+#: class/views/activepayments_settings_2.6.php:157
+msgid "Disable Payment Method"
+msgstr "Wyłącz metodę płatności"
+
+#: class/views/activepayments_settings.php:127
+#: class/views/activepayments_settings_2.6.php:157
+msgid ""
+"Disable payment method above entered cart total (shipping costs excluded)"
+msgstr ""
+"Powyżej podanej kwoty wyłącz metodę płatności (koszty wysyłki są pomijane)"
+
+#: class/views/activepayments_settings.php:135
+#: class/views/activepayments_settings_2.6.php:165
+#: class/views/activepayments_settings_fees.php:58
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: class/views/activepayments_settings_fees.php:20
+msgid "Fees configuration for payment methods."
+msgstr "Konfiguracja prowizji dla metod płatności."
+
+#: class/views/activepayments_settings_fees.php:32
+msgid "Payment Method"
+msgstr "Metoda płatności"
+
+#: class/views/activepayments_settings_fees.php:33
+msgid "Enable"
+msgstr "Włącz"
+
+#: class/views/activepayments_settings_fees.php:34
+msgid "Fee Title"
+msgstr "Tytuł prowizji"
+
+#: class/views/activepayments_settings_fees.php:34
+msgid "Enter fee title, used in the checkout and order summary."
+msgstr ""
+"Wpisz tytuł prowizji, który zostanie wyświetlony w formularzu i podsumowaniu "
+"zamówienia."
+
+#: class/views/activepayments_settings_fees.php:37
+msgid "Tax Class"
+msgstr "Klasa podatkowa"
+
+#: class/views/activepayments_settings_fees.php:37
+msgid "Select tax class for calculating fee amount."
+msgstr "Wybierz klasę podatkową dla obliczonej prowizji."
+
+#: class/views/activepayments_settings_fees.php:39
+msgid "Min Order Total"
+msgstr "Min wartość zamówienia"
+
+#: class/views/activepayments_settings_fees.php:39
+msgid "Enter Minimum Order Total (including shipping)."
+msgstr "Wpisz minimalną wartość zamóweinia (razem z przesyłką)"
+
+#: class/views/activepayments_settings_fees.php:40
+msgid "Max Order Total"
+msgstr "Maks wartośc zamówienia"
+
+#: class/views/activepayments_settings_fees.php:40
+msgid "Enter Maximum Order Total (including shipping)"
+msgstr "Wpisz maksymalną wartość zamóweinia (razem z przesyłką)"
+
+#: class/views/activepayments_settings_fees.php:41
+msgid "Type"
+msgstr "Typ"
+
+#: class/views/activepayments_settings_fees.php:41
+msgid "Select fixed value or percentage of order total."
+msgstr "Wybierz stałą wartość lub procent wartości zamówienia."
+
+#: class/views/activepayments_settings_fees.php:42
+msgid "Amount"
+msgstr "Wartość"
+
+#: class/views/activepayments_settings_fees.php:42
+msgid ""
+"Enter fixed value or percent. Based value for calculation is depended on "
+"shop tax settings (with or without tax). Calculated value is always without "
+"tax."
+msgstr ""
+"Wprowadź ustaloną wartość lub procent. Wartość bazowa dla obliczeń jest "
+"uzależniona od ustawienia podatku w sklepie (z lub bez podatku). Obliczona "
+"wartość jest zawsze bez podatku."
+
+#: class/views/activepayments_settings_fees_row.php:40
+msgid "Standard"
+msgstr "Standardowa"
+
+#: class/views/activepayments_settings_fees_row.php:50
+msgid "None"
+msgstr "Brak"
+
+#: class/views/activepayments_settings_fees_row.php:119
+msgid "Fixed"
+msgstr "Kwota"
+
+#: class/views/activepayments_settings_fees_row.php:120
+msgid "Percent"
+msgstr "Procent"
+
+#: class/views/tabs_end.php:3
+msgid "Get more WP Desk Plugins!"
+msgstr "Wtyczki WP Desk"
+
+#: class/views/tabs_end.php:13
+msgid "Flexible Shipping"
+msgstr "Flexible Shipping"
+
+#: class/views/tabs_end.php:13
+msgid "Create shipping methods based on weight, totals and more."
+msgstr "Twórz metody wysyłki oparte na wadze, wartości zamówienia i nie tylko."
+
+#: class/views/tabs_end.php:15
+msgid "Flexible Invoices"
+msgstr "Faktury WordPress"
+
+#: class/views/tabs_end.php:15
+msgid "Issue invoices for your WooCommerce orders."
+msgstr "Wystawiaj faktury do zamówień WooCommerce."
+
+#: class/views/tabs_end.php:17
+msgid "Flexible Checkout Fields"
+msgstr "Edycja Pól Zamówienia"
+
+#: class/views/tabs_end.php:17
+msgid "Manage WooCommerce checkout fields and add your own."
+msgstr "Zarządzaj polami zamówienia WooCommerce i dodawaj nowe pola."
+
+#: inc/wpdesk-functions.php:46
+#, php-format
+msgid ""
+"<a href=\"%s\">Install the WP Desk Helper plugin</a> to activate and get "
+"updates for your WP Desk plugins."
+msgstr ""
+"<a href=\"%s\">Zainstaluj wtyczkę WP Desk Helper</a>, aby aktywować i "
+"otrzymywać aktualizacje wtyczek WP Desk."
+
+#: inc/wpdesk-functions.php:52
+#, php-format
+msgid ""
+"<a href=\"%s\">Activate the WP Desk Helper plugin</a> to activate and get "
+"updates for your WP Desk plugins."
+msgstr ""
+"<a href=\"%s\">Włącz wtyczkę WP Desk Helper</a>, aby aktywować i otrzymywać "
+"aktualizacje wtyczek WP Desk."
+
+#: inc/wpdesk-functions.php:92
+#, php-format
+msgid ""
+"The %s%s%s License Key has not been activated, so the plugin is inactive! "
+"%sClick here%s to activate the license key and the plugin."
+msgstr ""
+"Klucz licencyjny wtyczki %s%s%s nie został aktywowany, więc wtyczka jest "
+"nieaktywna! %sKliknij tutaj%s, aby aktywować klucz licencyjny wtyczki."
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Active Payments"
+msgstr "WooCommerce Aktywne Płatności"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.wpdesk.net/products/active-payments-woocommerce/"
+msgstr "https://www.wpdesk.pl/products/aktywne-platnosci-woocommerce/"
+
+#. Description of the plugin/theme
+msgid ""
+"Allows to hide certain payment methods for selected shipping methods. Works "
+"great with <a href=\"https://www.wpdesk.net/products/flexible-shipping-pro-"
+"woocommerce/\" target=\"_blank\">Flexible Shipping for WooCommerce</a>."
+msgstr ""
+"Umożliwia ukrywanie wybranych opcji płatności dla poszczególnych opcji "
+"wysyłki. Działa idealnie z wtyczką <a href=\"https://www.wpdesk.pl/sklep/"
+"flexible-shipping-pro-woocommerce/\" target=\"_blank\">Flexible Shipping dla "
+"WooCommerce</a>."
+
+#. Author of the plugin/theme
+msgid "WP Desk"
+msgstr "WP Desk"
+
+#. Author URI of the plugin/theme
+msgid "https://www.wpdesk.net/"
+msgstr "https://www.wpdesk.pl/"
+
+#~ msgid "Enter fixed value or percent."
+#~ msgstr "Wpisz stałą wartość lub procent."

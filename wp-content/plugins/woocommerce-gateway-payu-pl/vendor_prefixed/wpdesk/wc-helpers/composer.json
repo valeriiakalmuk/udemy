@@ -1,0 +1,44 @@
+{
+    "name": "wpdesk\/wc-helpers",
+    "description": "Library for developers who tries to develop WooCommerce plugins",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Krzysztof Dyszczyk",
+            "email": "krzysiek@wpdesk.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "psr\/simple-cache": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WGPayuVendor\\WPDesk\\WC\\": "src\/WC\/",
+            "WGPayuVendor\\WPDesk\\WP\\": "src\/WP\/",
+            "WGPayuVendor\\WPDesk\\Cache\\": "src\/Cache\/"
+        }
+    },
+    "require-dev": {
+        "phpunit\/phpunit": "<7",
+        "wp-coding-standards\/wpcs": "^0.14.1",
+        "squizlabs\/php_codesniffer": "^3.0.2",
+        "mockery\/mockery": "*",
+        "10up\/wp_mock": "*",
+        "wimg\/php-compatibility": "^8"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WGPayuVendor\\WPDesk\\Tests\\Integration\\Compatibility\\Helper\\WC\\": "tests\/WC\/"
+        }
+    },
+    "scripts": {
+        "test": "echo composer is alive",
+        "phpcs": "phpcs",
+        "phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+        "phpunit-unit-fast": "phpunit --configuration phpunit-unit.xml --no-coverage",
+        "phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+        "phpunit-integration-fast": "phpunit --configuration phpunit-integration.xml --no-coverage",
+        "docs": "apigen generate"
+    }
+}

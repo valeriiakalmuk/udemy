@@ -1,0 +1,33 @@
+p.p24-error {
+    max-width: 40em;
+    font-weight: bold;
+    color: red;
+}
+
+table.p24-border {
+    border: solid 2px gray;
+}
+
+table.p24-border th,
+table.p24-border td
+{
+    border: solid 1px gray;
+    padding: .3em;
+}
+
+form.p24-label-form label {
+    position: relative;
+    display: block;
+    width: 20em;
+    clear: both;
+    line-height: 1.4em;
+}
+
+form.p24-label-form label input {
+    float: right;
+}
+
+.order-status.status-processing-p24 {
+    background:#c6e1c6;
+    color:#5b841b
+}

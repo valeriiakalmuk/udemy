@@ -1,0 +1,1059 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: przelewy24-gateway-woocommerce\n"
+"POT-Creation-Date: 2022-02-03 16:54+0100\n"
+"PO-Revision-Date: 2022-02-03 16:58+0100\n"
+"Last-Translator: \n"
+"Language-Team: Order Of Code <office@orderofcode.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: docker\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
+"X-Poedit-SearchPathExcluded-2: .idea\n"
+
+#: emails/notification_email.php:7 includes/Przelewy24Generator.class.php:58
+#: includes/class-p24-sub-generator.php:58
+msgid "Zamówienie nr"
+msgstr "Order no."
+
+#: emails/notification_email.php:7
+msgid "nie zostało opłacone."
+msgstr "has not been paid."
+
+#: emails/notification_email.php:7
+msgid "Kliknij w poniższy link aby dokończyć płatność przez Przelewy24"
+msgstr "Click on the link bellow and pay with Przelewy24"
+
+#: emails/notification_email.php:9
+msgid "Zapłać z Przelewy24"
+msgstr "Pay with Przelewy24"
+
+#: emails/notification_email.php:30 emails/order_summary.php:24
+msgid "Zamówienie"
+msgstr "Order"
+
+#: emails/notification_email.php:38 emails/order_summary.php:32
+msgid "Produkt"
+msgstr "Product"
+
+#: emails/notification_email.php:39 emails/order_summary.php:33
+msgid "Ilość"
+msgstr "Quantity"
+
+#: emails/notification_email.php:40 emails/order_summary.php:34
+msgid "Cena"
+msgstr "Price"
+
+#: emails/notification_email.php:73 emails/order_summary.php:67
+msgid "Komentarz:"
+msgstr "Note:"
+
+#: emails/subscription-cancellation.php:33
+msgid "Anulowanie subskrypcji"
+msgstr "Subscription cancelation"
+
+#: emails/subscription-cancellation.php:38
+msgid "Twoja subskrypcja została anulowana."
+msgstr "Your subsription has been canceled."
+
+#: emails/subscription-cancellation.php:40
+msgid "Nazwa subskrypcji:"
+msgstr "New subscription:"
+
+#: emails/subscription-cancellation.php:43
+msgid "W celu uzyskania szczegułów, prosimy skontaktować się z obsługą sklepu."
+msgstr "For more details, please contact store support."
+
+#: includes/Przelewy24Generator.class.php:57
+#: includes/class-p24-sub-generator.php:56
+msgid "Transakcja testowa"
+msgstr "Test transaction"
+
+#: includes/Przelewy24Generator.class.php:112
+msgid "Dodatkowe kwoty [VAT, rabaty]"
+msgstr "Extra charge [VAT and discounts]"
+
+#: includes/Przelewy24Generator.class.php:113
+msgid "Twoje zamówienie"
+msgstr "Your order"
+
+#: includes/Przelewy24Generator.class.php:183
+#: includes/class-p24-blik-html.php:68
+msgid "Tak, przeczytałem i akceptuję regulamin Przelewy24."
+msgstr "Yes, I have read and accept Przelewy24.pl terms."
+
+#: includes/Przelewy24Generator.class.php:194
+msgid "Potwierdzam zamówienie"
+msgstr "I confirm the order"
+
+#: includes/Przelewy24Generator.class.php:195
+msgid "Złożenie zamówienia wiąże się z obowiązkiem zapłaty"
+msgstr "Placing an order entails the obligation to pay"
+
+#: includes/Przelewy24Generator.class.php:196
+msgid "Anuluj zamówienie"
+msgstr "Cancel order"
+
+#: includes/Przelewy24Generator.class.php:199
+msgid ""
+"Dziękujemy za złożenie zamówienia. Za chwilę nastąpi przekierowanie na "
+"stronę przelewy24.pl"
+msgstr ""
+"Thank you for your order. In a moment you will be redirected to the "
+"przelewy24.pl page"
+
+#: includes/Przelewy24Helpers.class.php:25
+#: includes/Przelewy24Helpers.class.php:51
+#: includes/class-p24-icon-html-generator.php:56
+msgid "Usuń zapamiętaną kartę"
+msgstr "Delete card"
+
+#: includes/Przelewy24Helpers.class.php:26
+#: includes/Przelewy24Helpers.class.php:52
+#: includes/class-p24-icon-html-generator.php:57
+msgid "Czy na pewno?"
+msgstr "Are you sure?"
+
+#: includes/Przelewy24Mailer.class.php:38
+#: includes/Przelewy24Mailer.class.php:58
+msgid "Dziękujemy za złożenie zamówienia"
+msgstr "Thank You for Your Order"
+
+#: includes/WC_Gateway_Przelewy24.php:57
+msgid ""
+"Moduł Przelewy24.pl w tej chwili posiada podstawową funkcjonalność, która "
+"sukcesywnie będzie rozszerzana."
+msgstr ""
+"Przelewy24.pl module at the moment has basic functionality, which will be "
+"gradually expanded."
+
+#: includes/WC_Gateway_Przelewy24.php:342
+#: includes/class-p24-config-menu.php:353
+#: templates/multi-currency-formats.php:34
+#: templates/multi-currency-formats.php:37
+msgid "Aktywna waluta"
+msgstr "Active currency"
+
+#: includes/WC_Gateway_Przelewy24.php:355
+#: includes/WC_Gateway_Przelewy24.php:411
+msgid "Włącz/Wyłącz"
+msgstr "Turn on/off"
+
+#: includes/WC_Gateway_Przelewy24.php:378
+msgid "Wystąpił błąd. Spróbuj ponownie lub wybierz inną metodę płatności."
+msgstr "An error occurred. Please try again or choose another payment method."
+
+#: includes/WC_Gateway_Przelewy24.php:379
+#: includes/WC_Gateway_Przelewy24.php:962
+msgid "więcej metod płatności"
+msgstr "more payment methods"
+
+#: includes/WC_Gateway_Przelewy24.php:399
+msgid "Metody płatności widoczne od razu - upuść tutaj max. 5 metod płatności:"
+msgstr ""
+"Methods of payment immediately visible - drop here max. 5 methods of payment:"
+
+#: includes/WC_Gateway_Przelewy24.php:400
+msgid "Metody płatności widoczne po kliknięciu przycisku (więcej...):"
+msgstr "Methods of payment visible after clicking buton (more...):"
+
+#: includes/WC_Gateway_Przelewy24.php:401
+msgid "Wyróżnione metody płatności:"
+msgstr "Featured methods of payment:"
+
+#: includes/WC_Gateway_Przelewy24.php:402
+msgid "Metody płatności możliwe do wyróżnienia:"
+msgstr "Methods of payment that can be featured:"
+
+#: includes/WC_Gateway_Przelewy24.php:413
+msgid "Aktywuj moduł płatności Przelewy24."
+msgstr "Activate Przelewy24 payment module."
+
+#: includes/WC_Gateway_Przelewy24.php:417
+msgid "Aktywuj moduł płatności Przelewy24 dla danej waluty."
+msgstr "Activate Przelewy24 module for given currency."
+
+#: includes/WC_Gateway_Przelewy24.php:420
+#: templates/config-change-currency-widget.php:26
+msgid "Tytuł:"
+msgstr "Title:"
+
+#: includes/WC_Gateway_Przelewy24.php:422
+msgid "Tekst który zobaczą klienci podczas dokonywania zakupu"
+msgstr "The text that customers will see when making a purchase"
+
+#: includes/WC_Gateway_Przelewy24.php:423
+msgid "Przelewy24"
+msgstr "Przelewy24"
+
+#: includes/WC_Gateway_Przelewy24.php:425
+msgid "ID Sprzedawcy"
+msgstr "Merchant ID"
+
+#: includes/WC_Gateway_Przelewy24.php:427
+msgid "Identyfikator sprzedawcy nadany w systemie Przelewy24."
+msgstr "Merchant identifier in Przelewy24 system."
+
+#: includes/WC_Gateway_Przelewy24.php:431
+msgid "ID Sklepu"
+msgstr "Shop ID"
+
+#: includes/WC_Gateway_Przelewy24.php:433
+msgid "Identyfikator sklepu nadany w systemie Przelewy24."
+msgstr "Shop identifier in Przelewy24 system."
+
+#: includes/WC_Gateway_Przelewy24.php:437
+msgid "Klucz CRC"
+msgstr "CRC key"
+
+#: includes/WC_Gateway_Przelewy24.php:439
+msgid "Klucz do CRC nadany w systemie Przelewy24."
+msgstr "CRC key in Przelewy24 system."
+
+#: includes/WC_Gateway_Przelewy24.php:440
+msgid "(16 znaków)"
+msgstr "(16 characters)"
+
+#: includes/WC_Gateway_Przelewy24.php:443
+msgid "Tryb modułu"
+msgstr "Module mode"
+
+#: includes/WC_Gateway_Przelewy24.php:446
+msgid "Tryb przeprowadzania transakcji"
+msgstr "Transaction mode"
+
+#: includes/WC_Gateway_Przelewy24.php:448
+msgid "Opis"
+msgstr "Description"
+
+#: includes/WC_Gateway_Przelewy24.php:450
+msgid "Tekst który zobaczą klienci przy wyborze metody płatności"
+msgstr "The text that customers will see when choosing a payment method"
+
+#: includes/WC_Gateway_Przelewy24.php:451
+msgid "Płać z Przelewy24"
+msgstr "Pay with Przelewy24"
+
+#: includes/WC_Gateway_Przelewy24.php:453
+msgid "Klucz API"
+msgstr "API key"
+
+#: includes/WC_Gateway_Przelewy24.php:455
+msgid "Klucz API należy pobrać z panelu Przelewy24 z zakładki Moje dane"
+msgstr "API Key can be obtained from the Przelewy24 panel, My Data tab"
+
+#: includes/WC_Gateway_Przelewy24.php:456
+msgid "(32 znaki)"
+msgstr "(32 characters)"
+
+#: includes/WC_Gateway_Przelewy24.php:459
+msgid "Wyróżnij metody płatności"
+msgstr "Favour methods of payment"
+
+#: includes/WC_Gateway_Przelewy24.php:460
+msgid "Pokaż wybrane metody płatności na stronie kasy"
+msgstr "Show available payment methods on checkout page"
+
+#: includes/WC_Gateway_Przelewy24.php:461
+msgid "Klient może wybrać metodę płatności na stronie kasy"
+msgstr "The customer may choose the payment method on the checokut page"
+
+#: includes/WC_Gateway_Przelewy24.php:465
+msgid "Wyróżnione metody płatności"
+msgstr "Featured methods of payment"
+
+#: includes/WC_Gateway_Przelewy24.php:469
+msgid "Oneclick"
+msgstr "Oneclick"
+
+#: includes/WC_Gateway_Przelewy24.php:471
+msgid "Aktywuj płatności oneclick"
+msgstr "Activate OneClick payment"
+
+#: includes/WC_Gateway_Przelewy24.php:474
+msgid "Płatność w sklepie"
+msgstr "Payment in the shop"
+
+#: includes/WC_Gateway_Przelewy24.php:476
+msgid "Płatność wewnątrz sklepu (kartą, poprzez BLIK)"
+msgstr "Payment by credit card or BLIK within the shop"
+
+#: includes/WC_Gateway_Przelewy24.php:480
+msgid "Pokaż metody płatności wewnątrz sklepu"
+msgstr "Show available payment methods on confirmation page"
+
+#: includes/WC_Gateway_Przelewy24.php:481
+msgid "Pokaż dostępne metody płatności na stronie potwierdzenia zamówienia"
+msgstr "Show the payment method on the order confirmation page"
+
+#: includes/WC_Gateway_Przelewy24.php:482
+msgid "Klient może wybrać metodę płatności na stronie potwierdzenia zamówienia"
+msgstr ""
+"The customer can choose the payment method on the order confirmation page"
+
+#: includes/WC_Gateway_Przelewy24.php:485
+#: includes/WC_Gateway_Przelewy24.php:487
+msgid "Akceptacja regulaminu Przelewy24.pl"
+msgstr "Show accept button in shop"
+
+#: includes/WC_Gateway_Przelewy24.php:491
+msgid ""
+"Użyj graficznej listy metod płatności na stronie potwierdzenia zamówienia"
+msgstr "Use a graphical list of payment methods on the order confirmation page"
+
+#: includes/WC_Gateway_Przelewy24.php:495
+msgid "Widoczne metody płatności"
+msgstr "Visible payment methods"
+
+#: includes/WC_Gateway_Przelewy24.php:508
+msgid "Czekaj na wynik transakcji"
+msgstr "Wait for the transaction result"
+
+#: includes/WC_Gateway_Przelewy24.php:514
+msgid "Użyj statusów Przelewy24"
+msgstr "Use Przelewy24 statuses"
+
+#: includes/WC_Gateway_Przelewy24.php:520
+msgid "Status dla zamówień oczekujących na płatność"
+msgstr "Status for pending orders"
+
+#: includes/WC_Gateway_Przelewy24.php:527
+msgid "Status dla zamówień opłaconych"
+msgstr "Status for processing orders"
+
+#: includes/WC_Gateway_Przelewy24.php:534
+msgid "Dodaj P24NOW do listy płatności"
+msgstr "Add P24NOW to payment list."
+
+#: includes/WC_Gateway_Przelewy24.php:540
+msgid "Promuj P24NOW"
+msgstr "Promote P24NOW"
+
+#: includes/WC_Gateway_Przelewy24.php:603
+msgid "Klucz do CRC powinien mieć 16 znaków."
+msgstr "CRC key should be 16 characters long."
+
+#: includes/WC_Gateway_Przelewy24.php:626
+msgid "Błąd"
+msgstr "Error"
+
+#: includes/WC_Gateway_Przelewy24.php:684
+msgid "Błędny ID Sprzedawcy."
+msgstr "Wrong merchant ID."
+
+#: includes/WC_Gateway_Przelewy24.php:685
+msgid "Błędny ID Sklepu."
+msgstr "Wrong Shop ID."
+
+#: includes/WC_Gateway_Przelewy24.php:692
+msgid ""
+"Błędny klucz API dla tego ID Sklepu, Sprzedawcy lub trybu pracy wtyczki."
+msgstr ""
+"Wrong API Key for this Shop ID, Seller ID or for this operation mode of the "
+"plugin."
+
+#: includes/WC_Gateway_Przelewy24.php:698
+msgid "Ustawione statusy dla zamówień muszą się różnić."
+msgstr "The configured statuses for orders should be different."
+
+#: includes/WC_Gateway_Przelewy24.php:706
+msgid "Bramka płatności Przelewy24"
+msgstr "Przelewy24 payment gateway"
+
+#: includes/WC_Gateway_Przelewy24.php:707
+msgid ""
+"Pamiętaj, aby skonfigurować zewnętrzny adres IP serwera w panelu Przelewy24."
+msgstr "Rembember to configure external IP address on Przelewy24 panel."
+
+#: includes/WC_Gateway_Przelewy24.php:742
+#: includes/WC_Gateway_Przelewy24.php:783
+#: includes/WC_Gateway_Przelewy24.php:1275
+msgid "Błąd płatności: "
+msgstr "Payment error: "
+
+#: includes/WC_Gateway_Przelewy24.php:742
+#: includes/WC_Gateway_Przelewy24.php:783
+#: includes/WC_Gateway_Przelewy24.php:1275
+msgid ""
+"Przepraszamy, ale twoja transakcja nie została przeprowadzona pomyślnie, "
+"prosimy spróbować ponownie."
+msgstr ""
+"We're sorry, but your transaction was not carried out successfully, please "
+"try again."
+
+#: includes/WC_Gateway_Przelewy24.php:829
+#: includes/WC_Gateway_Przelewy24.php:842
+msgid "Ostatnio używane"
+msgstr "Recently used"
+
+#: includes/WC_Gateway_Przelewy24.php:961
+msgid "Pokaż więcej metod płatności."
+msgstr "Show more payment methods."
+
+#: includes/WC_Gateway_Przelewy24.php:969
+msgid "Imię i nazwisko"
+msgstr "First and last name"
+
+#: includes/WC_Gateway_Przelewy24.php:970
+msgid "Numer karty"
+msgstr "Card number"
+
+#: includes/WC_Gateway_Przelewy24.php:971
+msgid "CVV"
+msgstr "CVV"
+
+#: includes/WC_Gateway_Przelewy24.php:972
+msgid "Data ważności"
+msgstr "Expiration date"
+
+#: includes/WC_Gateway_Przelewy24.php:973 includes/class-p24-blik-html.php:67
+msgid "Zapłać"
+msgstr "Pay"
+
+#: includes/WC_Gateway_Przelewy24.php:974
+msgid "Kliknij tutaj aby kontynuować zakupy"
+msgstr "Click here to continue shopping"
+
+#: includes/WC_Gateway_Przelewy24.php:975
+msgid "Zapisz kartę"
+msgstr "Save card"
+
+#: includes/WC_Gateway_Przelewy24.php:976
+msgid "Zarejestruj i zapłać"
+msgstr "Register and pay"
+
+#: includes/WC_Gateway_Przelewy24.php:1027
+#: includes/WC_Gateway_Przelewy24.php:1039
+msgid "Refund failed."
+msgstr ""
+
+#: includes/WC_Gateway_Przelewy24.php:1060
+msgid "Return failed."
+msgstr ""
+
+#: includes/WC_Gateway_Przelewy24.php:1226
+#: includes/class-p24-rest-server.php:56
+msgid "IPN payment completed"
+msgstr "Płatność BPP (Błyskawiczne powiadamianie o płatności) zakończona"
+
+#: includes/WC_Gateway_Przelewy24.php:1290
+msgid ""
+"Płatność realizowana przez Przelewy24 nie została jeszcze potwierdzona. "
+"Jeśli potwierdzenie nadejdzie w czasie późniejszym, płatność zostanie "
+"automatycznie przekazana do sklepu"
+msgstr ""
+"Your payment made by Przelewy24 has not yet been confirmed. If the "
+"confirmation will come later, the payment will be automatically transferred "
+"to the shop"
+
+#: includes/WC_Gateway_Przelewy24.php:1341
+msgid "normalny"
+msgstr "normal"
+
+#: includes/WC_Gateway_Przelewy24.php:1342
+msgid "testowy"
+msgstr "test"
+
+#: includes/class-p24-blik-html.php:63
+msgid "Wprowadź kod BLIK"
+msgstr "Enter BLIK code"
+
+#: includes/class-p24-blik-html.php:64
+msgid "Wprowadź 6-cyfrowy kod BLIK pobrany z aplikacji bankowej."
+msgstr "Enter 6-digit BLIK code from the bank application."
+
+#: includes/class-p24-blik-html.php:65
+msgid "Niepoprawny kod BLIK."
+msgstr "Invalid BLIK code."
+
+#: includes/class-p24-blik-html.php:66
+msgid "Brak zaakceptowanego regulaminu Przelewy24."
+msgstr "Accept checkbox is not checked."
+
+#: includes/class-p24-config-eraser.php:96
+#: includes/class-p24-config-eraser.php:97
+#: includes/class-p24-config-eraser.php:119
+msgid "Wyczyść ustawienia"
+msgstr "Clear settings"
+
+#: includes/class-p24-config-menu.php:318
+msgid "Waluta podstawowa"
+msgstr "Base currency"
+
+#: includes/class-p24-currency-selector-widget.php:23
+msgid "Widget wyboru waluty Przelewy24"
+msgstr "Przelewy24 Currency Selector Widget"
+
+#: includes/class-p24-leaderboards-controller.php:80
+msgid "Top Coupons - Number of Orders"
+msgstr ""
+
+#: includes/class-p24-leaderboards-controller.php:83
+msgid "Coupon Code"
+msgstr ""
+
+#: includes/class-p24-leaderboards-controller.php:86
+#: includes/class-p24-leaderboards-controller.php:220
+msgid "Orders"
+msgstr ""
+
+#: includes/class-p24-leaderboards-controller.php:89
+msgid "Amount Discounted"
+msgstr ""
+
+#: includes/class-p24-leaderboards-controller.php:148
+msgid "Top Categories - Items Sold"
+msgstr ""
+
+#: includes/class-p24-leaderboards-controller.php:151
+msgid "Category"
+msgstr ""
+
+#: includes/class-p24-leaderboards-controller.php:154
+#: includes/class-p24-leaderboards-controller.php:290
+msgid "Items Sold"
+msgstr ""
+
+#: includes/class-p24-leaderboards-controller.php:157
+#: includes/class-p24-leaderboards-controller.php:293
+msgid "Net Sales"
+msgstr ""
+
+#: includes/class-p24-leaderboards-controller.php:214
+msgid "Top Customers - Total Spend"
+msgstr ""
+
+#: includes/class-p24-leaderboards-controller.php:217
+msgid "Customer Name"
+msgstr ""
+
+#: includes/class-p24-leaderboards-controller.php:223
+msgid "Total Spend"
+msgstr ""
+
+#: includes/class-p24-leaderboards-controller.php:284
+msgid "Top Products - Items Sold"
+msgstr ""
+
+#: includes/class-p24-leaderboards-controller.php:287
+msgid "Product"
+msgstr ""
+
+#: includes/class-p24-multi-currency-menu.php:50
+#: templates/multi-currency-main.php:32
+msgid "Moduł multi currency"
+msgstr "Multi currency module"
+
+#: includes/class-p24-status-decorator-db.php:72
+msgid "Unpaid order cancelled - time limit reached."
+msgstr ""
+
+#: includes/class-p24-status-decorator.php:188
+#: includes/class-p24-status-decorator.php:193
+#: includes/class-p24-status-decorator.php:309
+msgid "Opłacone przez P24"
+msgstr "Paid by P24"
+
+#: includes/class-p24-status-decorator.php:350
+#, php-format
+msgid "Pending payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending payment <span class=\"count\">(%s)</span>"
+msgstr[0] "Pending payment <span class=\"count\">(%s)</span>"
+msgstr[1] "Pending payment <span class=\"count\">(%s)</span>"
+msgstr[2] "Pending payment <span class=\"count\">(%s)</span>"
+
+#: includes/class-p24-status-decorator.php:359
+#, php-format
+msgid "Opłacone przez P24 <span class=\"count\">(%s)</span>"
+msgstr "Paid by P24 <span class=\"count\">(%s)</span>"
+
+#: includes/class-p24-status-provider.php:72
+msgctxt "Order status"
+msgid "Pending payment"
+msgstr "Pending payment"
+
+#: includes/class-p24-status-provider.php:75
+msgctxt "Order status"
+msgid "Processing"
+msgstr "Processing"
+
+#: includes/class-p24-status-provider.php:101
+msgid "Błąd przy dodawaniu nowego statusu."
+msgstr "Error adding new status."
+
+#: includes/class-p24-status-provider.php:104
+msgid "Prefiks wc- dla kodu jest niedozwolony."
+msgstr "The prefix wc- is forbidden."
+
+#: includes/class-p24-status-provider.php:107
+msgid ""
+"Kod powinien składać się tylko z małych liter, bez znaków diakrytycznych."
+msgstr "The code should contain only small letters without diacritics."
+
+#: includes/class-p24-status-provider.php:110
+msgid "Kod jest używany wewnętrznie przez WooCommerce, nie można go użyć."
+msgstr ""
+"The code is used internally by WooCommerce, it is not available for use."
+
+#: includes/subscription/class-p24-subscription-admin.php:41
+#: templates/subscriptions-list-inactive.php:26
+#: templates/subscriptions-list.php:24
+msgid "Użytkownik"
+msgstr "User"
+
+#: includes/subscription/class-p24-subscription-admin.php:42
+#: templates/subscriptions-list-inactive.php:27
+#: templates/subscriptions-list.php:25
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: includes/subscription/class-p24-subscription-admin.php:43
+#: templates/subscriptions-list-inactive.php:28
+#: templates/subscriptions-list.php:26 templates/subscriptions-user.php:34
+msgid "Ważna do"
+msgstr "Valid to"
+
+#: includes/subscription/class-p24-subscription-admin.php:44
+#: templates/subscriptions-list-inactive.php:29
+#: templates/subscriptions-list.php:27
+msgid "Subskrypcje"
+msgstr "Subscription"
+
+#: includes/subscription/class-p24-subscription-admin.php:68
+msgid "Ustawienia subskrypcji"
+msgstr "Subscription setup"
+
+#: includes/subscription/class-p24-subscription-admin.php:127
+msgid "Twoja subskrypcja została anulowana"
+msgstr "Your subscription has been canceled"
+
+#: includes/subscription/class-p24-subscription-user.php:39
+msgid "Subskrypcje P24"
+msgstr "P24 Subscriptions"
+
+#: includes/subscription/class-p24-subscription.php:62
+msgid "Subskrypcja P24"
+msgstr "P24 Subscription"
+
+#: templates/change-currency-widget.php:28
+#: templates/multi-currency-order-edit.php:22
+msgid "Waluta"
+msgstr "Currency"
+
+#: templates/change-currency-widget.php:39
+msgid "Zmień"
+msgstr "Change"
+
+#: templates/confirm-clear-config.php:22
+msgid "Kasowanie ustawień Przelewy24"
+msgstr "Clear Przelewy24 settings"
+
+#: templates/confirm-clear-config.php:27
+msgid "Ustawienia zostały skasowane."
+msgstr "Settings has been removed."
+
+#: templates/confirm-clear-config.php:38
+msgid "Potwierdź skasowanie ustawień Przelewy24"
+msgstr "Confirm removal of Przelewy24 settings"
+
+#: templates/confirm-clear-config.php:47
+msgid "Wykonaj"
+msgstr "Execute"
+
+#: templates/currency-menu-generator.php:24
+msgid "Zmiana waluty na"
+msgstr "Change currency to"
+
+#: templates/currency-menu-generator.php:59
+msgid "Select All"
+msgstr ""
+
+#: templates/currency-menu-generator.php:65
+msgid "Add to Menu"
+msgstr ""
+
+#: templates/multi-currency-formats.php:26
+msgid "Formatowanie walut"
+msgstr "Currency formatting"
+
+#: templates/multi-currency-formats.php:50
+msgid "Pozycja waluty"
+msgstr "Currency position"
+
+#: templates/multi-currency-formats.php:54
+msgid "Po lewej"
+msgstr "On left"
+
+#: templates/multi-currency-formats.php:55
+msgid "Po prawej"
+msgstr "On right"
+
+#: templates/multi-currency-formats.php:56
+msgid "Po lewej ze spacją"
+msgstr "On left with space"
+
+#: templates/multi-currency-formats.php:57
+msgid "Po prawej ze spacją"
+msgstr "On right with space"
+
+#: templates/multi-currency-formats.php:65
+msgid "Separator trzycyfrowy"
+msgstr "Thousand separator"
+
+#: templates/multi-currency-formats.php:75
+msgid "Separator dziesiętny"
+msgstr "Decimal separator"
+
+#: templates/multi-currency-formats.php:85
+msgid "Cyfry po przecinku"
+msgstr "Number of decimals"
+
+#: templates/multi-currency-formats.php:97
+#: templates/multi-currency-main.php:119
+#: templates/multi-currency-multipliers.php:67 templates/status-config.php:37
+#: templates/subscriptions-config.php:77 templates/subscriptions-user.php:67
+#: woocommerce-gateway-przelewy24.php:121
+msgid "Zapisz"
+msgstr "Save"
+
+#: templates/multi-currency-main.php:45
+msgid ""
+"\n"
+"        Wykryto zewnętrzny, aktywny moduł obsługi wielu walut.\n"
+"        Aktywacja modułu Przelewy24 może spowodować poważne błędy.\n"
+"        "
+msgstr ""
+"\n"
+"        An active external module for multi currency detected.\n"
+"        The activation of Przelewy24 module may lead to serious errors.\n"
+"        "
+
+#: templates/multi-currency-main.php:53
+msgid "Wykryty moduł:"
+msgstr "Detected module:"
+
+#: templates/multi-currency-main.php:59
+msgid ""
+"\n"
+"\tNiektóre wtyczki mogą wchodzić w konflikt z tą opcją.\n"
+"\tDotyczy przede wszystkim tych, które wprowadzają nowy rodzaj produktów,\n"
+"\tniedostępnych z poziomu Woocommerce → Products.\n"
+"\t"
+msgstr ""
+"\n"
+"\tFew plugins may be incompatible with this option.\n"
+"\tThis is especially true for these that provide own products,\n"
+"\tunavailable from Woocommerce  → Products.\n"
+"\t"
+
+#: templates/multi-currency-main.php:72
+msgid "Aktywować moduł multi currency"
+msgstr "Activate multi currency module"
+
+#: templates/multi-currency-main.php:82 templates/multi-currency-main.php:85
+msgid "Waluta do analityki (w tym dashboard)"
+msgstr "Currency for analytics (including dashboard)"
+
+#: templates/multi-currency-main.php:98
+msgid "Notyfikacje"
+msgstr "Notifications"
+
+#: templates/multi-currency-main.php:106
+msgid "E-mail o złożeniu zamówienia."
+msgstr "E-mail about placing an order."
+
+#: templates/multi-currency-multipliers.php:24
+#: templates/multi-currency-tabs.php:31 templates/multi-currency-tabs.php:33
+#: templates/multi-currency-tabs.php:35
+msgid "Mnożniki walut"
+msgstr "Currency multipliers"
+
+#: templates/multi-currency-multipliers.php:46
+#: templates/multi-currency-multipliers.php:49 templates/statuses.php:68
+msgid "Dodaj"
+msgstr "Add"
+
+#: templates/multi-currency-tabs.php:25 templates/multi-currency-tabs.php:27
+#: templates/statuses-tabs.php:25 templates/statuses-tabs.php:27
+#: templates/subscriptions-tabs.php:25 templates/subscriptions-tabs.php:27
+#: templates/subscriptions-tabs.php:29
+msgid "Ustawienia główne"
+msgstr "Main settings"
+
+#: templates/multi-currency-tabs.php:39 templates/multi-currency-tabs.php:41
+#: templates/multi-currency-tabs.php:43
+msgid "Formaty wyświetlania walut"
+msgstr "Formats to display currencies"
+
+#: templates/status-config.php:18
+msgid "Aktywacja statusów P24"
+msgstr "P24 statuses activation"
+
+#: templates/status-config.php:25
+msgid "Aktywuj statusy"
+msgstr "Activate statuses"
+
+#: templates/statuses-tabs.php:31 templates/statuses-tabs.php:33
+#: templates/statuses-tabs.php:35
+msgid "Lista"
+msgstr "List"
+
+#: templates/statuses.php:27
+msgid "Statusy"
+msgstr "Statuses"
+
+#: templates/statuses.php:30
+msgid "Obecnie wprowadzone statusy:"
+msgstr "Current entered statuses:"
+
+#: templates/statuses.php:34
+msgid "Kod"
+msgstr "Code"
+
+#: templates/statuses.php:35
+msgid "Nazwa"
+msgstr "Label"
+
+#: templates/statuses.php:46
+msgid "Wprowadź nowy status:"
+msgstr "Enter new status:"
+
+#: templates/statuses.php:55
+msgid "Kod:"
+msgstr "Code:"
+
+#: templates/statuses.php:61
+msgid "Nazwa:"
+msgstr "Label:"
+
+#: templates/subscriptions-config.php:27
+#: templates/subscriptions-list-inactive.php:18
+#: templates/subscriptions-list.php:18
+msgid "Moduł subskrypcji"
+msgstr "Subscription module"
+
+#: templates/subscriptions-config.php:34
+msgid "Aktywuj subskrypcje"
+msgstr "Activate subscriptions"
+
+#: templates/subscriptions-config.php:44
+msgid "Strona subskrypcji użytkownika"
+msgstr "User subscription page"
+
+#: templates/subscriptions-config.php:48
+msgid "Brak akcji"
+msgstr "No action"
+
+#: templates/subscriptions-config.php:50
+msgid "Skasuj"
+msgstr "Remove"
+
+#: templates/subscriptions-config.php:51
+msgid "Ponownie wygeneruj"
+msgstr "Regenerate"
+
+#: templates/subscriptions-config.php:53
+msgid "Wygeneruj"
+msgstr "Generate"
+
+#: templates/subscriptions-config.php:57
+msgid "Link do obecnej strony"
+msgstr "Link to current site"
+
+#: templates/subscriptions-config.php:65
+msgid "Liczba dni na odnowienie subskrypcji"
+msgstr "Number of days for subscription renewal"
+
+#: templates/subscriptions-list-inactive.php:20
+#: templates/subscriptions-user.php:89
+msgid "Nieaktywne subskrypcje"
+msgstr "Inactive subscriptions"
+
+#: templates/subscriptions-list.php:28
+msgid "Aktywna"
+msgstr "Active"
+
+#: templates/subscriptions-list.php:46
+msgid "Edytuj"
+msgstr "Edit"
+
+#: templates/subscriptions-list.php:51
+msgid "Pobierz CSV"
+msgstr "Download CSV"
+
+#: templates/subscriptions-product-file.php:20
+msgid "File name"
+msgstr ""
+
+#: templates/subscriptions-product-file.php:22
+msgid "http://"
+msgstr ""
+
+#: templates/subscriptions-product-file.php:23
+msgid "Choose file"
+msgstr ""
+
+#: templates/subscriptions-product-file.php:23
+msgid "Insert file URL"
+msgstr ""
+
+#: templates/subscriptions-product-file.php:24
+msgid "Delete"
+msgstr ""
+
+#: templates/subscriptions-product.php:24
+msgid "Price"
+msgstr ""
+
+#: templates/subscriptions-product.php:27
+msgid "Enter Subscription Price."
+msgstr ""
+
+#: templates/subscriptions-product.php:34
+msgid "Days"
+msgstr ""
+
+#: templates/subscriptions-product.php:37
+msgid "Enter Subcription Length in Days."
+msgstr ""
+
+#: templates/subscriptions-product.php:50
+msgid "Name"
+msgstr ""
+
+#: templates/subscriptions-product.php:51
+msgid "File URL"
+msgstr ""
+
+#: templates/subscriptions-product.php:85
+msgid "Add File"
+msgstr ""
+
+#: templates/subscriptions-tabs.php:33 templates/subscriptions-tabs.php:35
+#: templates/subscriptions-tabs.php:37
+msgid "Aktywne"
+msgstr "Active"
+
+#: templates/subscriptions-tabs.php:41 templates/subscriptions-tabs.php:43
+#: templates/subscriptions-tabs.php:45
+msgid "Nieaktywne"
+msgstr "Inactive"
+
+#: templates/subscriptions-user.php:35 templates/subscriptions-user.php:92
+msgid "Subskrypcja"
+msgstr "Subscription"
+
+#: templates/subscriptions-user.php:36
+msgid "Karta"
+msgstr "Card"
+
+#: templates/subscriptions-user.php:46
+msgid "Brak podpiętej karty"
+msgstr "No card"
+
+#: templates/subscriptions-user.php:74
+msgid "Dostępne pliki"
+msgstr "Available files"
+
+#: templates/subscriptions-user.php:85
+msgid "Nie masz aktywnych subskrypcji."
+msgstr "There is no valid subscriptions."
+
+#: woocommerce-gateway-przelewy24.php:116
+msgid "Moje zapisane karty"
+msgstr "My saved cards"
+
+#: woocommerce-gateway-przelewy24.php:117
+msgid "Czy jesteś pewien?"
+msgstr "Are you sure?"
+
+#: woocommerce-gateway-przelewy24.php:118
+msgid "Usuń kartę"
+msgstr "Remove card"
+
+#: woocommerce-gateway-przelewy24.php:119
+msgid "Nie pamiętaj moich kart"
+msgstr "Do not remember my cards"
+
+#: woocommerce-gateway-przelewy24.php:120
+msgid "Brak zapamiętanych kart płatniczych"
+msgstr "No saved credit cards"
+
+#: woocommerce-gateway-przelewy24.php:198
+msgid "Wyślij e-mail do płatności przez Przelewy24"
+msgstr "Send e-mail to pay order with Przelewy24"
+
+#: woocommerce-gateway-przelewy24.php:232
+msgid ""
+"Wtyczka Przelewy24 jest nieaktywna, ponieważ brakuje rozszerzenia PHP-SOAP."
+msgstr ""
+"Przelewy24 plugin is inactive because the PHP-SOAP extension is missing."
+
+#: woocommerce-gateway-przelewy24.php:237
+msgid ""
+"Wtyczka Przelewy24 jest nieaktywna, ponieważ brakuje rozszerzenia PHP-CURL."
+msgstr ""
+"Przelewy24 plugin is inactive because the PHP-CURL extension is missing."
+
+#: woocommerce-gateway-przelewy24.php:242
+msgid ""
+"Wtyczka Przelewy24 jest nieaktywna, najpierw musi być zainstalowana i "
+"aktywna wtyczka WooCommerce."
+msgstr ""
+"Przelewy24 plugin is inactive, the WooCommerce plugin must be installed and "
+"activated first."
+
+#: woocommerce-gateway-przelewy24.php:247
+msgid ""
+"Wtyczka Przelewy24 jest nieaktywna, ponieważ nie znaleziono odpowiedniej "
+"wersji WooCommerce."
+msgstr ""
+"Przelewy24 plugin is inactive because the appropriate version of WooCommerce "
+"has not been found."
+
+#~ msgid "Pokaż metody płatności"
+#~ msgstr "Show payment methods"
+
+#~ msgid ""
+#~ "Błędny ID Sklepu, Sprzedawcy lub Klucz do CRC dla tego trybu pracy "
+#~ "wtyczki."
+#~ msgstr ""
+#~ "Wrong Shop ID, Seller ID or CRC Key for this operation mode of the plugin."
+
+#~ msgid "Usługa PaymentMethods nie jest włączona dla tego sprzedawcy."
+#~ msgstr "PaymentMethods service is not enabled for this merchant."
+
+#~ msgid "Auto"
+#~ msgstr "Auto"
+
+#~ msgid "Nic nie rób"
+#~ msgstr "Do nothing"
+
+#~ msgid "Promuj p24 now"
+#~ msgstr "Promote p24 now"
+
+#~ msgid "Kod powinien składać się tylko z małych liter."
+#~ msgstr "The code should contain only small letters."
+
+#~ msgid "Płatność kartą wewnątrz sklepu"
+#~ msgstr "Payment by credit card within the shop"
+
+#~ msgid "Dokończenie płatności Przelewy24"
+#~ msgstr "Pay order with Przelewy24"
+
+#~ msgid "Wybierz wszystko"
+#~ msgstr "Select All"
+
+#~ msgid "Dodaj do Menu"
+#~ msgstr "Add to Menu"

@@ -1,0 +1,561 @@
+# Copyright (C) 2021 Keylor Mendoza A.
+# This file is distributed under the same license as the WC Pickup Store plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Pickup Store 1.7.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-pickup-store\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-10-03T05:13:04+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: wc-pickup-store\n"
+
+#. Plugin Name of the plugin
+#: includes/admin/wps-admin.php:14
+#: includes/integrations/class-vc_stores.php:22
+#: includes/integrations/class-widget-stores.php:13
+msgid "WC Pickup Store"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.keylormendoza.com/plugins/wc-pickup-store/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allows you to set up a custom post type for stores available to use it as shipping method Local pickup in WooCommerce. It also allows your clients to choose an store on the Checkout page and also adds the store fields to the order details and email."
+msgstr ""
+
+#. Author of the plugin
+msgid "Keylor Mendoza A."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.keylormendoza.com"
+msgstr ""
+
+#: includes/admin/wps-admin.php:7
+#: includes/wps-functions.php:42
+msgid "Select a store"
+msgstr ""
+
+#: includes/admin/wps-admin.php:10
+msgid "Label: %s"
+msgstr ""
+
+#: includes/admin/wps-admin.php:12
+#: includes/admin/wps-settings.php:33
+#: includes/admin/wps-settings.php:162
+msgid "None"
+msgstr ""
+
+#: includes/admin/wps-admin.php:17
+#: includes/class-wps-init.php:100
+msgid "Default store"
+msgstr ""
+
+#: includes/admin/wps-admin.php:28
+#: includes/cpt-store.php:357
+#: includes/cpt-store.php:372
+msgid "Stores"
+msgstr ""
+
+#: includes/admin/wps-admin.php:32
+msgid "Choose a default store"
+msgstr ""
+
+#: includes/admin/wps-admin.php:109
+#: includes/admin/wps-admin.php:123
+#: includes/integrations/class-vc_stores.php:33
+#: includes/integrations/class-vc_stores.php:41
+#: includes/integrations/class-vc_stores.php:49
+#: includes/integrations/class-vc_stores.php:63
+#: includes/integrations/class-vc_stores.php:71
+#: includes/integrations/class-vc_stores.php:79
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/wps-admin.php:135
+msgid "You must either choose a store or use other shipping method"
+msgstr ""
+
+#: includes/admin/wps-admin.php:157
+#: includes/admin/wps-settings.php:23
+#: includes/class-wps-init.php:128
+msgid "Pickup Store"
+msgstr ""
+
+#: includes/admin/wps-admin.php:185
+msgid "There are not available stores. Please choose another shipping method."
+msgstr ""
+
+#: includes/admin/wps-settings.php:4
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/admin/wps-settings.php:6
+#: includes/admin/wps-settings.php:14
+#: includes/admin/wps-settings.php:50
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/wps-settings.php:8
+msgid "Enable/Disable shipping method"
+msgstr ""
+
+#: includes/admin/wps-settings.php:12
+msgid "Enable stores in checkout"
+msgstr ""
+
+#: includes/admin/wps-settings.php:16
+msgid "Shows select field to pick a store in checkout"
+msgstr ""
+
+#: includes/admin/wps-settings.php:20
+msgid "Shipping Method Title"
+msgstr ""
+
+#: includes/admin/wps-settings.php:22
+msgid "Label that appears in checkout options"
+msgstr ""
+
+#: includes/admin/wps-settings.php:27
+msgid "Shipping Costs Type"
+msgstr ""
+
+#: includes/admin/wps-settings.php:30
+msgid "Choose a shipping costs type to calculate Pick up store costs. Use None to deactivate shipping store costs"
+msgstr ""
+
+#: includes/admin/wps-settings.php:34
+msgid "Flat Rate"
+msgstr ""
+
+#: includes/admin/wps-settings.php:35
+msgid "Percentage"
+msgstr ""
+
+#: includes/admin/wps-settings.php:40
+msgid "Shipping Costs"
+msgstr ""
+
+#: includes/admin/wps-settings.php:42
+msgid "Adds main shipping cost to store pickup"
+msgstr ""
+
+#: includes/admin/wps-settings.php:48
+msgid "Enable costs per store"
+msgstr ""
+
+#: includes/admin/wps-settings.php:52
+msgid "Allows to add shipping costs by store that will override the main shipping cost."
+msgstr ""
+
+#: includes/admin/wps-settings.php:56
+msgid "Order Stores by"
+msgstr ""
+
+#: includes/admin/wps-settings.php:59
+#: includes/admin/wps-settings.php:73
+msgid "Choose what order the stores will be shown"
+msgstr ""
+
+#: includes/admin/wps-settings.php:70
+msgid "Order"
+msgstr ""
+
+#: includes/admin/wps-settings.php:83
+msgid "Choose a default store to Checkout"
+msgstr ""
+
+#: includes/admin/wps-settings.php:87
+msgid "Checkout notification"
+msgstr ""
+
+#: includes/admin/wps-settings.php:89
+msgid "Message that appears next to shipping options on the Checkout page"
+msgstr ""
+
+#: includes/admin/wps-settings.php:94
+msgid "Hide store details on Checkout"
+msgstr ""
+
+#: includes/admin/wps-settings.php:96
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/wps-settings.php:98
+msgid "Hide selected store details on the Checkout page."
+msgstr ""
+
+#: includes/admin/wps-settings.php:102
+msgid "Disable store filtering by Country"
+msgstr ""
+
+#: includes/admin/wps-settings.php:104
+#: includes/admin/wps-settings.php:113
+#: includes/admin/wps-settings.php:125
+#: includes/admin/wps-settings.php:136
+#: includes/admin/wps-settings.php:144
+msgid "Disable"
+msgstr ""
+
+#: includes/admin/wps-settings.php:106
+msgid "By default, stores will be filtered by country on the Checkout."
+msgstr ""
+
+#: includes/admin/wps-settings.php:114
+#: includes/admin/wps-settings.php:115
+#: includes/admin/wps-settings.php:126
+#: includes/admin/wps-settings.php:127
+msgid "Use version %s"
+msgstr ""
+
+#: includes/admin/wps-settings.php:118
+msgid "Choose for external Bootstrap library version. Use Disable to disable the library."
+msgstr ""
+
+#: includes/admin/wps-settings.php:130
+msgid "Choose for external Font Awesome library version. Use Disable to disable the library."
+msgstr ""
+
+#: includes/admin/wps-settings.php:134
+msgid "Disable local css"
+msgstr ""
+
+#: includes/admin/wps-settings.php:138
+msgid "Disable WC Pickup Store css library."
+msgstr ""
+
+#: includes/admin/wps-settings.php:142
+msgid "Disable select2 on Checkout"
+msgstr ""
+
+#: includes/admin/wps-settings.php:146
+msgid "Disable select2 library for stores dropdown on Checkout page."
+msgstr ""
+
+#: includes/admin/wps-settings.php:154
+msgid "Configure tax options"
+msgstr ""
+
+#: includes/admin/wps-settings.php:156
+msgid "Configure the usage for taxes based on shipping method or per stores"
+msgstr ""
+
+#: includes/admin/wps-settings.php:159
+msgid "Tax status"
+msgstr ""
+
+#: includes/admin/wps-settings.php:163
+msgid "Taxable"
+msgstr ""
+
+#: includes/admin/wps-settings.php:164
+msgid "Taxable per store"
+msgstr ""
+
+#: includes/admin/wps-settings.php:167
+msgid "Use Taxable to enable tax calculation for the shipping method. Use Taxable per store to enable tax calculation based on store tax configuration. Use none to disable tax calculations. Avoid using Taxable per store when costs per store are disabled."
+msgstr ""
+
+#: includes/class-wps-init.php:27
+msgid "Lets users to choose a store to pick up their products"
+msgstr ""
+
+#: includes/class-wps-init.php:103
+msgid "Find this option in <a href=\"%s\" target=\"_blank\">the Customizer</a>"
+msgstr ""
+
+#: includes/cpt-store.php:15
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/cpt-store.php:31
+msgid "Exclude in Checkout?"
+msgstr ""
+
+#: includes/cpt-store.php:31
+msgid "Yes"
+msgstr ""
+
+#: includes/cpt-store.php:31
+msgid "No"
+msgstr ""
+
+#: includes/cpt-store.php:33
+msgid "Country:"
+msgstr ""
+
+#: includes/cpt-store.php:46
+msgid "Miscellaneous"
+msgstr ""
+
+#: includes/cpt-store.php:47
+msgid "Store Fields"
+msgstr ""
+
+#: includes/cpt-store.php:67
+msgid "Exclude store in checkout."
+msgstr ""
+
+#: includes/cpt-store.php:75
+msgid "Set this store as taxable."
+msgstr ""
+
+#: includes/cpt-store.php:111
+msgid "Country"
+msgstr ""
+
+#: includes/cpt-store.php:114
+msgid "Choose a country"
+msgstr ""
+
+#: includes/cpt-store.php:127
+msgid "Store shipping cost"
+msgstr ""
+
+#: includes/cpt-store.php:130
+msgid "Add shipping cost for this store."
+msgstr ""
+
+#: includes/cpt-store.php:135
+#: templates/selected-store-details.php:4
+msgid "City"
+msgstr ""
+
+#: includes/cpt-store.php:141
+#: templates/selected-store-details.php:7
+msgid "Phone"
+msgstr ""
+
+#: includes/cpt-store.php:147
+msgid "Order Email Notification"
+msgstr ""
+
+#: includes/cpt-store.php:151
+msgid "Enable order email notification"
+msgstr ""
+
+#: includes/cpt-store.php:153
+msgid "Add email to be notified when this store is selected on an order. Comma separated for multiple email addresses."
+msgstr ""
+
+#: includes/cpt-store.php:160
+msgid "Waze link"
+msgstr ""
+
+#: includes/cpt-store.php:164
+msgid "Map URL"
+msgstr ""
+
+#: includes/cpt-store.php:167
+msgid "Add map URL to be embedded. No iframe tag required."
+msgstr ""
+
+#: includes/cpt-store.php:171
+msgid "Short description"
+msgstr ""
+
+#: includes/cpt-store.php:180
+#: templates/selected-store-details.php:10
+msgid "Address"
+msgstr ""
+
+#: includes/cpt-store.php:339
+msgid "Since version %1$s, a new Country validation was added to %2$s and all stores have been updated."
+msgstr ""
+
+#: includes/cpt-store.php:355
+msgctxt "Post Type General Name"
+msgid "Stores"
+msgstr ""
+
+#: includes/cpt-store.php:356
+msgctxt "Post Type Singular Name"
+msgid "Store"
+msgstr ""
+
+#: includes/cpt-store.php:358
+#: includes/cpt-store.php:371
+msgid "Store"
+msgstr ""
+
+#: includes/cpt-store.php:359
+msgid "Store Archives"
+msgstr ""
+
+#: includes/cpt-store.php:360
+msgid "All Stores"
+msgstr ""
+
+#: includes/cpt-store.php:361
+#: includes/cpt-store.php:362
+msgid "Add New Store"
+msgstr ""
+
+#: includes/cpt-store.php:363
+msgid "New Store"
+msgstr ""
+
+#: includes/cpt-store.php:364
+msgid "Edit Store"
+msgstr ""
+
+#: includes/cpt-store.php:365
+msgid "Update Store"
+msgstr ""
+
+#: includes/cpt-store.php:366
+msgid "View Store"
+msgstr ""
+
+#: includes/cpt-store.php:367
+msgid "View Stores"
+msgstr ""
+
+#: includes/cpt-store.php:368
+msgid "Search Store"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:24
+msgid "Show stores in page content"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:25
+msgid "Content"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:30
+#: includes/integrations/class-widget-stores.php:110
+msgid "Stores to show"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:34
+#: includes/integrations/class-widget-stores.php:112
+msgid "Set -1 to show all stores."
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:38
+#: includes/integrations/class-widget-stores.php:115
+msgid "Set posts IDs"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:42
+#: includes/integrations/class-widget-stores.php:117
+msgid "Add post IDs to show followed by a comma. Ex. 01,05."
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:46
+msgid "Show as grid?"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:50
+msgid "Otherwise it'll appear as listing."
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:54
+msgid "Items per row"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:64
+msgid "Available in grid style."
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:68
+#: includes/integrations/class-widget-stores.php:120
+msgid "Show image?"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:75
+#: includes/integrations/class-widget-stores.php:125
+msgid "Image size"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:84
+#: includes/integrations/class-widget-stores.php:141
+msgid "Show store name?"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:87
+#: includes/integrations/class-vc_stores.php:94
+#: includes/integrations/class-vc_stores.php:101
+#: includes/integrations/class-vc_stores.php:108
+#: includes/integrations/class-vc_stores.php:115
+#: includes/integrations/class-widget-stores.php:139
+msgid "Fields"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:91
+#: includes/integrations/class-widget-stores.php:151
+msgid "Show direction?"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:98
+#: includes/integrations/class-widget-stores.php:156
+msgid "Show phone?"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:105
+#: includes/integrations/class-widget-stores.php:161
+msgid "Show description?"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:112
+msgid "Show waze link?"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:120
+#: includes/integrations/class-vc_stores.php:122
+msgid "Icon background"
+msgstr ""
+
+#: includes/integrations/class-vc_stores.php:123
+#: includes/integrations/class-vc_stores.php:128
+#: includes/integrations/class-vc_stores.php:130
+#: includes/integrations/class-vc_stores.php:131
+msgid "Icon color"
+msgstr ""
+
+#: includes/integrations/class-widget-stores.php:15
+msgid "Shows store details in a widget section"
+msgstr ""
+
+#: includes/integrations/class-widget-stores.php:106
+msgid "Title"
+msgstr ""
+
+#: includes/integrations/class-widget-stores.php:130
+msgid "Show in columns?"
+msgstr ""
+
+#: includes/integrations/class-widget-stores.php:146
+msgid "Show city?"
+msgstr ""
+
+#: includes/integrations/class-widget-stores.php:166
+msgid "Show waze?"
+msgstr ""
+
+#: includes/wps-functions.php:260
+msgid "Ship to %s"
+msgstr ""
+
+#: includes/wps-functions.php:406
+msgid "Choose a store for picking up your order on the Checkout page."
+msgstr ""
+
+#: includes/wps-functions.php:496
+msgid "Store email"
+msgstr ""
+
+#: wc-pickup-store.php:47
+msgid "%1$s requires %2$sWooCommerce%3$s to be active."
+msgstr ""
+
+#: wc-pickup-store.php:72
+msgid "Since version %1$s, a new Country validation was added to %2$s. Please, update stores without country manually or use the default country %3$s %4$shere%5$s."
+msgstr ""

@@ -1,0 +1,224 @@
+*** WooCommerce PayU Gateway Changelog ***
+
+5.0.7 - 2022-01-19
+* Poprawiono generowanie nazwy strony dla płatności
+
+5.0.6 - 2021-11-02
+* Poprawiono zachownie subskrybcji przy zmianie sposobu płatności 
+
+5.0.5 - 2021-09-23
+* Dodano wsparcie dla integracji fakturowych
+
+5.0.4 - 2021-09-02
+* Poprawienie generowania nazwy strony przy płatności cyklicznej
+
+5.0.3 - 2021-08-18
+* Poprawienie funkcjonalności zmiany statusu zamówienia po otrzymaniu płatności
+
+5.0.2 - 2021-08-05
+* Przywrócenie funkcjonalności niezależnego włączania bramek płatniczych
+
+5.0.1 - 2021-07-21
+* Usunięcie błędu w ustawieniach PayU
+
+5.0 - 2021-07-15
+* Dodanie obsługi wielu walut
+
+4.8.14 - 2021-04-29
+* W celu weryfikacji przy subskrypcjach testowych oraz przy zmianie karty pobierana a następnie zwracana jest kwota 1zł
+
+4.8.13 - 2021-03-18
+* Poprawienie błędu z ponawianiem płatności przy nieudanej transakcji WooCommerce Subscriptions
+
+4.8.12 - 2021-02-10
+* Dodanie wsparcia dla WooCommerce 5.0
+
+4.8.11 - 2021-01-21
+* Poprawienie błędu związanego z wyświetlaniem płatności poprzez subskrybcję gdy brak subskrybcji w koszyku
+* Poprawienie minimalnej kwoty dla rat PayU
+
+4.8.10 - 2021-01-14
+* Poprawienie edycji numeru karty przy korzystaniu z subskrypcji
+
+4.8.9 - 2020-09-01
+* Dodanie wsparcia dla All Products for WooCommerce Subscriptions
+
+4.8.8 - 2020-08-25
+* Poprawienie błędu związanego z pobieraniem IP dokonującego płatność
+
+4.8.7 - 2020-06-22
+* Dodanie filtra wpdesk_payu_create_order_description.
+
+4.8.6 - 2020-05-11
+* Dodanie wsparcia dla WooCommerce 4.1
+
+4.8.5 - 2020-04-10
+* Poprawienie zapisywania ustawień.
+
+4.8.4 - 2020-03-10
+* Dodanie wsparcia dla WooCommerce 4.0
+* Dodanie wsparcia dla WordPress 5.4
+* Poprawienie błędu związanego z brakiem wyskakującego okienka dla płatności cyklicznych.
+
+4.8.3 - 2019-12-31
+* Dodanie wsparcia dla WooCommerce 3.9
+
+4.8.2 - 2019-11-20
+* Poprawienie unikalnego identyfikatora dla zamówienia
+
+4.8.1 - 2019-11-05
+* Dodanie wsparcia dla WooCommerce 3.8
+* Dodanie wsparcia dla WordPress 5.3
+
+4.8.0 - 2019-10-30
+* Dodanie wsparcia dla nowych bibliotek WPDesk
+
+4.7.9 - 2019-08-12
+* Dodanie wsparcia dla WooCommerce 3.7
+
+4.7.8 - 2019-07-23
+* Poprawienie błędu zaokrąglenia kwoty do zapłaty.
+
+4.7.7 - 2019-05-07
+* Poprawienie błędu zaokrąglenia kwoty przy zwrotach.
+
+4.7.6 - 2019-04-09
+* Dodanie wsparcia dla WooCommerce 3.6
+
+4.7.5 - 2019-03-13
+* Dodanie adresu strony zamiast nazwy w opisie transakcji
+
+4.7.4 - 2019-02-28
+* Usunięcie znaków specjalnych z opisu transakcji
+
+4.7.3 - 2019-01-22
+* Poprawienie obsługi kolejnej płatności cyklicznej
+* Poprawienie obsługi pierwszej płatności w przypadku darmowego okresu próbnego
+
+4.7.2 - 2019-01-09
+* Poprawienie obsługi pierwszej płatności w przypadku darmowego okresu próbnego dla subskrypcji
+
+4.7.1 - 2019-01-07
+* Usunięcie zbędnych plików
+
+4.7 - 2019-01-02
+* Dodanie płatności cyklicznych jako metody na liście subskrypcji
+* Poprawienie błędu związanego z nie poprawną identyfikacją płatności cyklicznych (brak edycji dat dla subskrypcji manualnych)
+* Usunięcie flagi włączającej subskrypcje dla standardowej metody płatności
+
+4.6.13 - 2018-11-15
+* Poprawienie błędu związanego z błędnym oznaczeniem płatności cyklicznych
+
+4.6.12 - 2018-10-29
+* Poprawienie błędów związanych z integracją z wtyczką Aktywne Płatności oraz płatnościami ratalnymi
+
+4.6.11 - 2018-10-15
+* Dodanie wsparcia dla WooCommerce 3.5
+* Poprawienie problemów z obsługą płatności ratalnych
+* Usunięcie wsparcia dla wersji WooCommerce poniżej 3.0 (wtyczka może dalej działać z wcześniejszymi wersjami, ale nie deklarujemy oficjalnego wsparcia i nie testowaliśmy wtyczki z tymi wersjami)
+
+4.6.10 - 2018-07-18
+* Poprawienie problemu z walidacją dla płatności cyklicznych
+* Poprawienie problemu z nietypowymi znakami w nazwie bloga co powodowało problemy z podpisem sig
+
+4.6.9 - 2018-06-11
+* Poprawienie problemu z przekierowaniem po błędnej transakcji z kodem 501
+
+4.6.8 - 2018-05-29
+* Poprawienie reakcji na błąd 501 podczas anulowania płatności
+
+4.6.7 - 2018-05-23
+* Dodanie wsparcia dla WooCommerce 3.4
+
+4.6.6 - 2018-05-14
+* Poprawienie błędu 103 zwracanego przez PayU Api zależnie od ustawień podatków
+
+4.6.5 - 2018-03-22
+* Dodanie wsparcia trybu Sandbox dla Classic API
+* Poprawienie dostępności płatności cyklicznych - tylko dla subskrypcji
+
+4.6.4 - 2018-02-01
+* Poprawienie oznaczenia aktualnej wersji wtyczki
+
+4.6.3 - 2018-01-25
+* Dodanie wsparcia dla WooCommerce 3.3
+
+4.6.2 - 2017-12-06
+* Poprawienie wyświetlania metody płatności PayU Subskrypcje tylko gdy zamawiany jest produkt subskrypcja
+* Usunięcie domyślnego pokazywania metody płatności PayU Subskrypcje, gdy zamawiany jest produkt subskrypcja. Metodę płatności można włączyć opcjonalnie w ustawieniach wtyczki.
+
+4.6.1 - 2017-11-22
+* Poprawienie przesyłania numeru zamówienia do tytułu transakcji dla autoryzacji REST API
+
+4.6 - 2017-11-20
+* Dodanie obsługi płatności cyklicznych
+* Dodanie integracji z WooCommerce Subscriptions
+* Dodanie kwoty zwrotu do notatki w zamówieniu
+
+4.5 - 2017-09-14
+* Dodanie obsługi zwrotów WooCommerce (automatyczny zwrot płatności przez PayU)
+* Dodanie obsługi REST API PayU
+* Dodanie obsługi środowiska testowego PayU Sandbox
+
+4.4.2 - 2017-08-24
+* Poprawienie błędu na WooCommerce 3.0.5 powodującego wielokrotne zdjęcie stanu magazynowego po poprawnej płatności
+* Dodanie integracji z klasą WP Desk Tracker, która pomaga nam zrozumieć jak używasz wtyczki (dane są zbierane po wyrażeniu zgody)
+
+4.4.1 - 2017-04-18
+* Poprawienie wsparcia dla starszych wersji PHP
+
+4.4 - 2017-03-29
+* Dodanie wsparcia dla nadchodzącej wersji WooCommerce 3.0
+* Porzucenie wsparcia dla wersji WooCommerce poniżej 2.5 (wtyczka może dalej działać z wcześniejszymi wersjami, ale nie deklarujemy oficjalnego wsparcia i nie testowaliśmy wtyczki z tymi wersjami)
+* Poprawienie wyświetlania adresów powrotu w ustawieniach wtyczki
+
+4.3 - 2017-02-03
+* Dodanie płatności przez Raty PayU
+* Dodanie adresów powrotu do ustawień wtyczki w celu prostszej konfiguracji
+* Dodanie szybkich linków na liście wtyczek
+
+4.2 - 2016-02-15
+* Dodanie $order->payment_complete() po przyjęciu płatności
+
+4.1 - 2016-01-26
+* System licencji i automatyczne aktualizacje
+
+4.0.3 - 2015-11-05
+* Usunięcie odwołania do nieistniejącego pliku ajax-loader.gif
+
+4.0.2 - 2015-10-23
+* Usunięcie nieużywanych funkcji woo-includes
+
+4.0.1 - 2015-10-08
+* Nowe logo PayU
+
+4.0 - 2015-08-11
+* Zmodyfikowany obsługę błędnych transakcji. Uwaga na zmianę w panelu admina PayU zmiennej error na errorId
+
+3.3 - 2015-04-28
+* Nazwa sklepu została usunięta z nazwy zamówienia. Powodowała ciągłe problemy.
+
+3.2.1 - 2015-04-28
+* Jeszcze mocniejsze przycięcie UTF w nazwie zamówienia
+
+3.2 - 2014-08-28
+* Wsparcie dla UTF w nazwie zamówienia
+
+3.1 - 2014-07-27
+* Kosmetyczny fix numeracji zamowień
+
+3.0 - 2014-06-30
+* Fix - ograniczenie długości opisu przesyłanego do PayU do 50 znaków oraz wycięcie spacji
+* Nadanie wersji która nie konfliktuje się z WC Payu
+
+1.2.1 - 2014-03-12
+* Fix - poprawne pobieranie id
+
+1.2 - 2014-02-02
+* Dostosowanie do WooCommerce 2.1 i zmiany w obsłudze magazynu
+
+1.1 - 2013-07-31
+* Improved payment processing and error reporting
+
+1.0 - 2013-07-15
+* Pierwsze wydanie!

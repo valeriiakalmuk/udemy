@@ -1,0 +1,177 @@
+*** WooCommerce Active Payments - Changelog ***
+
+3.6.6 - 2021-02-10
+* Added support for WooCommerce 5.0
+
+3.6.5 - 2020-12-22
+* Fixed price calculation for payment fees
+
+3.6.4 - 2020-09-09
+* Added woocommerce_active_payments_checkout_shipping_method filter for Live Rates shipping plugins
+
+3.6.3 - 2020-07-09
+* Fixed rules on order-pay page
+
+3.6.2 - 2020-05-12
+* Added support for WooCommerce 4.1
+
+3.6.1 - 2019-04-15
+* Fixed security issues
+* Added support for WPML string translations (Fee Title)
+
+3.6.0 - 2019-03-19
+* Fixed escaping strings
+* Added support for WooCommerce 4.0
+
+3.5.4 - 2019-02-18
+* Fixed escaping translations
+
+3.5.3 - 2019-12-31
+* Added support for WooCommerce 3.9
+
+3.5.2 - 2019-11-13
+* Added better translations support
+
+3.5.1 - 2019-11-04
+* Added support for update info event when not subscribed
+* Added support for WooCommerce 3.8
+* Added support for WooCommerce 5.3
+
+3.5.0 - 2019-09-12
+* Added support for prefixed libraries
+
+3.4.5 - 2019-08-12 =
+* Added support for WooCommerce 3.7
+
+3.4.4 - 2019-07-11 =
+* Fixed rare change for fatal error when activating plugin
+
+3.4.3 - 2019-07-02
+* Fixed jQuery conflict with WOOBE Bulk editor plugin
+
+3.4.2 - 2019-06-17
+* Fixed invalid composer.lock and problems with helper
+
+3.4.0 - 2019-06-05
+* Removed subscription enforce
+* Added support for WP Desk libraries
+
+3.3.5 - 2019-04-09
+* Fixed version update on deploy
+
+3.3.4 - 2019-04-08
+* Added support for WooCommerce 3.6
+
+3.3.3 - 2018-12-05
+* Added support for WordPress 5.0
+
+3.3.2 - 2018-10-16
+* Added support for WooCommerce 3.5
+* Dropped support for WooCommerce 3.0 and older (the plugin may still work with older versions but we do not declare official support)
+
+3.3.1 - 2018-05-23
+* Added support for WooCommerce 3.4
+* Tweaked support for flexible-shipping flag in shipping methods
+
+3.3 - 2018-05-07
+* Tweaked default functionality. All gateways are enabled by default
+
+3.2.1 - 2018-02-19
+* Fixed disabling of the shipping method after exceeding the set amount
+
+3.2 - 2018-01-25
+* Added suport to Flexible Shipping UPS
+* Added support for WooCommerce 3.3
+* Fixed add integration name without added shipping metohod
+
+3.1.1 - 2017-09-05
+* Integrated WP Desk Tracker class to help us understand how you use the plugin (you need to opt in to enable it)
+
+3.1 - 2017-03-29
+* Added support for upcoming WooCommerce 3.0
+* Dropped support for WooCommerce below 2.5 (the plugin may still work with older versions but we do not declare official support)
+* Changed the way of filtering payment methods in the checkout (fixing a potencial conflict with Discounts plugin)
+
+3.0 - 2017-02-22
+* Added currency switchers support: Aelia Currency Switcher, Multi Currency Store, WooCommerce Currency Switcher
+
+2.9 - 2017-01-17
+* Added Payment Gateway Based Fees
+* New look & feel for better WordPress integration
+* Tweaked integration with WooCommerce DHL
+
+2.8.2 - 2016-10-14
+* Fixed potential conflicts with some themes
+
+2.8.1 - 2016-07-11
+* Fixed support for InPost for WooCommerce plugin
+* Fixed compatibility issues with WooCommerce 2.6
+
+2.8 - 2016-07-05
+* Added support for Apaczka plugin
+* Fixed disabling payment method above entered cart total
+
+2.7 - 2016-06-14
+* Added support for WooCommerce 2.6 Shipping Zones
+* Converted to English
+* Added Polish translation
+* Tweaked code to be more readable
+
+2.6.2 - 2016-05-11
+* Fixed checkout notices
+
+2.6.1 - 2016-03-07
+* Fixed warning: 108 Invalid argument supplied for foreach()
+
+2.6 - 2016-01-26
+* Added automatic updates and license activation
+
+2.5 - 2015-11-03
+* Added WooCommerce Flexible Shipping integration
+* Dropped WooCommerce Table Rate Shipping Support
+
+2.4 - 2015-08-24
+* Added support for WooCommerce 2.4.x
+
+2.3 - 2014-12-17
+* Fixed disabling payment method for empty values
+
+2.2 - 2014-12-01
+* Tweaks for strict standards
+
+2.1 - 2014-09-26
+* New interface
+* Added WooCommerce KurJerzy integration
+* Added cart total above which the payment method is disabled
+
+2.0 - 2014-09-26
+* Added support for WooCommerce 2.2.x
+* Tweaked ID handling for Flat Rate and Table Rate Shipping
+
+1.5.2 - 2014-08-20
+* Added support for WooCommerce 2.1.x
+
+1.5.1 - 2014-04-13
+* Added translation support
+
+1.5 - 2014-04-02
+* Fixed payment methods for default shipping method
+
+1.4.1 - 2014-02-26
+* Fixed integration with Table Rate Shipping
+
+1.4 - 2014-02-21
+* Twaeked payment gateways settings
+* Added support for WooCommerce 2.1
+
+1.3 - 2013-12-03
+* Fixed Flat Rate settings when only one flat rate is available
+
+1.2 - 2013-10-05
+* Fixed Flat Rate settings
+
+1.1 - 2013-10-03
+* Added support for WooCommerce Table Rate Shipping: http://bit.ly/TableRateShipping
+
+1.0 - 2013-08-29
+* First Release!
